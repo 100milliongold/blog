@@ -4,11 +4,21 @@
         <title>My Blog Blog</title>
         <link>https://100milliongold.github.io/blog/blog</link>
         <description>My Blog Blog</description>
-        <lastBuildDate>Sun, 12 Feb 2023 18:14:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Feb 2023 01:18:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
         <copyright>Copyright © 2023 Facebook, Inc.</copyright>
+        <item>
+            <title><![CDATA[DataBase CAP 이론이란]]></title>
+            <link>https://100milliongold.github.io/blog/blog/2023/02/13/cap-이론</link>
+            <guid>https://100milliongold.github.io/blog/blog/2023/02/13/cap-이론</guid>
+            <pubDate>Mon, 13 Feb 2023 01:18:58 GMT</pubDate>
+            <description><![CDATA[Consistency, Availability, Partition tolerance]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="consistency-availability-partition-tolerance">Consistency, Availability, Partition tolerance<a href="#consistency-availability-partition-tolerance" class="hash-link" aria-label="Consistency, Availability, Partition tolerance에 대한 직접 링크" title="Consistency, Availability, Partition tolerance에 대한 직접 링크">​</a></h2><p>C, A, P 중 2개를 선택해야 한다. (3가지 모두 만족할 순 없음)</p><p><img loading="lazy" src="/blog/assets/images/image-bce1c829fd28d7f38dce88ac4f641d92.png" width="621" height="354" class="img_ev3q"></p><ul><li>일관성(Consistency)<ul><li>모든 노드들은 같은 시간에 동일한 항목에 대하여 같은 내용의 데이터를 사용자에게 보여준다.</li></ul></li><li>가용성(Availability)<ul><li>모든 사용자들이 읽기 및 쓰기가 가능해야 하며, 몇몇 노드의 장애 시에도 다른 노드에 영향을 미치면 안된다.</li></ul></li><li>분할내성(Partition tolerance)<ul><li>메시지 전달이 실패하거나 시스템 일부가 망가져도 시스템이 계속 동작할 수 있어야 한다.</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cap-선택-유형">CAP 선택 유형<a href="#cap-선택-유형" class="hash-link" aria-label="CAP 선택 유형에 대한 직접 링크" title="CAP 선택 유형에 대한 직접 링크">​</a></h2><table><thead><tr><th>분류</th><th>설명</th><th>예시</th></tr></thead><tbody><tr><td>C+A</td><td>메시지 손실을 방지하는 강한 신뢰형</td><td>일반적 RDBMS<br>오라클 등</td></tr><tr><td>C+P</td><td>데이터 보다는 성능이 중요한 퍼포먼스형</td><td>Big Table<br>MongoDB</td></tr><tr><td>A+P</td><td>일관성을 크게 요하지 않는 서비스에 적합</td><td>CouchDB<br>Cassandra</td></tr></tbody></table>]]></content:encoded>
+            <category>database</category>
+            <category>정보관리</category>
+        </item>
         <item>
             <title><![CDATA[다시 깃헙페이지로 이사갑니다.]]></title>
             <link>https://100milliongold.github.io/blog/blog/2023/02/12/이사중/inde</link>
@@ -97,16 +107,6 @@ Effective Java 규칙 2 - 조슈아 블로그</p><div class="codeBlockContainer_
             <category>front-end</category>
             <category>vscode</category>
             <category>linux</category>
-        </item>
-        <item>
-            <title><![CDATA[react 에서 package.json 내의 버젼정보 가져오기]]></title>
-            <link>https://100milliongold.github.io/blog/blog/react-에서-package-json-내의-버젼정보-가져오기</link>
-            <guid>https://100milliongold.github.io/blog/blog/react-에서-package-json-내의-버젼정보-가져오기</guid>
-            <pubDate>Fri, 06 Sep 2019 01:03:11 GMT</pubDate>
-            <description><![CDATA[1. 루트 폴더에 .env 파일 생성후에 다음항목 입력]]></description>
-            <content:encoded><![CDATA[<ol><li>루트 폴더에 .env 파일 생성후에 다음항목 입력</li></ol><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">REACT_APP_VERSION=$npm_package_version</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">REACT_APP_NAME=$npm_package_name</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><ol start="2"><li>react app 재시작 후에 임의의 파일에 넣고 테스트</li></ol><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">console.log(`${process.env.REACT_APP_NAME} ${process.env.REACT_APP_VERSION}`)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
-            <category>react</category>
-            <category>front-end</category>
         </item>
     </channel>
 </rss>
