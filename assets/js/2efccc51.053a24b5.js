@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[6665],{4719:a=>{a.exports=JSON.parse('{"label":"manjaro","permalink":"/blog/blog/tags/manjaro","allTagsPath":"/blog/blog/tags","count":3}')}}]);

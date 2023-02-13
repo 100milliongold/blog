@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[2014],{7280:l=>{l.exports=JSON.parse('{"label":"linix","permalink":"/blog/post/tags/linix","allTagsPath":"/blog/post/tags","count":1}')}}]);
