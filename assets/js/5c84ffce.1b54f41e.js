@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[4629],{4070:s=>{s.exports=JSON.parse('{"label":"freebsd","permalink":"/blog/post/tags/freebsd","allTagsPath":"/blog/post/tags","count":2}')}}]);

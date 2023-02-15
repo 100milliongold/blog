@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[9665],{47730:s=>{s.exports=JSON.parse('{"label":"ssh","permalink":"/blog/post/tags/ssh","allTagsPath":"/blog/post/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[7583],{6530:l=>{l.exports=JSON.parse('{"label":"Netflix","permalink":"/blog/post/tags/netflix","allTagsPath":"/blog/post/tags","count":1}')}}]);

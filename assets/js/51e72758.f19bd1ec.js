@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[3015],{74011:s=>{s.exports=JSON.parse('{"label":"DB-Key","permalink":"/blog/post/tags/db-key","allTagsPath":"/blog/post/tags","count":1}')}}]);
