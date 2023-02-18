@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[5874],{14980:s=>{s.exports=JSON.parse('{"label":"ANSI/SPARC \ubaa8\ub378","permalink":"/blog/post/tags/ansi-sparc-\ubaa8\ub378","allTagsPath":"/blog/post/tags","count":1}')}}]);
