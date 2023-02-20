@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[3705],{11490:s=>{s.exports=JSON.parse('{"label":"pyScript","permalink":"/blog/post/tags/py-script","allTagsPath":"/blog/post/tags","count":1}')}}]);
