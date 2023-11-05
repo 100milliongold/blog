@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[9820],{87700:e=>{e.exports=JSON.parse('{"label":"elementaryOS","permalink":"/blog/post/tags/elementary-os","allTagsPath":"/blog/post/tags","count":1}')}}]);

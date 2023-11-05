@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[9339],{16186:s=>{s.exports=JSON.parse('{"label":"revealjs","permalink":"/blog/post/tags/revealjs","allTagsPath":"/blog/post/tags","count":1}')}}]);

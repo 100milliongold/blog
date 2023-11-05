@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[6759],{46484:l=>{l.exports=JSON.parse('{"label":"Arch Linux","permalink":"/blog/post/tags/arch-linux","allTagsPath":"/blog/post/tags","count":2}')}}]);

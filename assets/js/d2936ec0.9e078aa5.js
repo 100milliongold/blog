@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[5684],{60416:s=>{s.exports=JSON.parse('{"label":"DIKW","permalink":"/blog/second/tags/dikw","allTagsPath":"/blog/second/tags","count":1,"unlisted":false}')}}]);

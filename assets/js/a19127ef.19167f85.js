@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[4446],{54031:s=>{s.exports=JSON.parse('{"label":"spring boot","permalink":"/blog/post/tags/spring-boot","allTagsPath":"/blog/post/tags","count":4,"unlisted":false}')}}]);

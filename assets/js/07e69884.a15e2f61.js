@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyblog_2_0=self.webpackChunkmyblog_2_0||[]).push([[8645],{78143:s=>{s.exports=JSON.parse('{"label":"DBMS","permalink":"/blog/second/tags/dbms","allTagsPath":"/blog/second/tags","count":1,"unlisted":false}')}}]);
